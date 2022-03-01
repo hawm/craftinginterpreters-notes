@@ -1,0 +1,7 @@
+// Expect true but got false in Java implementation
+print 0 == -0; 
+// But following will got true
+print 0 >= -0;
+print 0 <= -0;
+// According to https://en.wikipedia.org/wiki/Signed_zero#Comparisons
+// it might missing some special trick in jlox
