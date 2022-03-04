@@ -16,7 +16,8 @@
 	"extensions": [
 		"ms-vscode.cpptools",
 		"vscjava.vscode-java-debug",
-		"redhat.java"
+		"redhat.java",
+		"vscjava.vscode-java-dependency",
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
