@@ -2,5 +2,9 @@
     "java.dependency.packagePresentation": "hierarchical",
     "java.project.sourcePaths": [
         "java",
-    ]
+    ],
+    "files.exclude": {
+        "**/*.class": true,
+        "**/*.out": true
+    }
 }
