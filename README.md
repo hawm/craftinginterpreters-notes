@@ -1,3 +1,3 @@
 # craftinginterpreters-notes
 
-Study Notes of [Crafting Interperter](https://craftinginterpreters.com/).
+Study Notes of [Crafting Interpreter](https://craftinginterpreters.com/).
