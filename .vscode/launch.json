@@ -14,13 +14,23 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GenerateAst",
+            "request": "launch",
+            "mainClass": "com.craftinginterpreters.tool.GenerateAst",
+            "projectName": "craft-my-interpreters_7d9ac56b",
+            "args": [
+                "${workspaceFolder}/java/com/craftinginterpreters/lox"
+            ]
+        },
+        {
+            "type": "java",
             "name": "Launch jlox",
             "request": "launch",
             "mainClass": "com.craftinginterpreters.lox.Lox",
             "projectName": "craft-my-interpreters_7d9ac56b",
             "args": [
                 "${input:arg}"
-            ],
+            ]
         },
         {
             "name": "gcc - Build and debug active file",
